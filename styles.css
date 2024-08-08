@@ -1,0 +1,289 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-image: url('"D:\gandharv\project\lava.png"'); /* Path relative to styles.css */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Keep background fixed on scroll */
+}
+
+/* Vertical Navbar Styles */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-list li {
+    margin-bottom: 20px;
+}
+
+.nav-list li:last-child {
+    margin-bottom: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #ffd700;
+    /* Change the color on hover */
+}
+
+.rightNav {
+    margin-top: auto;
+    text-align: center;
+}
+
+#search {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #000;
+    /* Change the background color on hover */
+    color: #ffd700;
+}
+
+/* Settings Page Styles */
+.settings-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/lava.png'); /* Same background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent; /* Transparent background */
+    color: white; /* Text color */
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content section {
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content input[type="range"],
+.content select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #444;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.9; /* Slight transparency */
+    transition: opacity 0.3s ease;
+}
+
+.content input[type="range"]:hover,
+.content select:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-image: url('../photo.png'); /* Path relative to styles.css */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Keep background fixed on scroll */
+}
+
+/* Vertical Navbar Styles */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-list li {
+    margin-bottom: 20px;
+}
+
+.nav-list li:last-child {
+    margin-bottom: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #ffd700;
+    /* Change the color on hover */
+}
+
+.rightNav {
+    margin-top: auto;
+    text-align: center;
+}
+
+#search {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #000;
+    /* Change the background color on hover */
+    color: #ffd700;
+}
+
+/* Settings Page Styles */
+.settings-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('"D:\gandharv\project\lava.png"'); /* Same background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent; /* Transparent background */
+    color: white; /* Text color */
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content section {
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content input[type="range"],
+.content select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #444;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.9; /* Slight transparency */
+    transition: opacity 0.3s ease;
+}
+
+.content input[type="range"]:hover,
+.content select:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
